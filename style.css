@@ -11,6 +11,7 @@
     border-radius: 3px;
     padding: 10px;
     padding: 20px;
+    position: relative;
 }
 
 .newsletter h3 {
@@ -43,4 +44,10 @@
     position: relative;
     top: 1px;
 
+}
+
+.newsletter #closex {
+    position :absolute;
+    top:0;
+    right: 4px;
 }
